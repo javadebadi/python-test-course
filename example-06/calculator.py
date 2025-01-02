@@ -2,6 +2,7 @@
 class NotNumberError(Exception):
     pass
 
+
 class Calculator:
     def __init__(self):
         self.current = 0
